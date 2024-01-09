@@ -4,4 +4,5 @@
 - systemctl status nginx
 - 
   ![image](estado.png)
-- 
+  
+  ![image](nginx.png)
