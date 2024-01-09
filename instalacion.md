@@ -1,1 +1,3 @@
-
+- apt update
+- apt policy nginx
+- apt install nginx
