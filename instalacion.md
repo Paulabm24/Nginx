@@ -3,5 +3,5 @@
 - apt install nginx
 - systemctl status nginx
 - 
-  ![images]estado.png)
+  ![image]estado.png)
 - 
