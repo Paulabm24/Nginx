@@ -2,5 +2,6 @@
 - apt policy nginx
 - apt install nginx
 - systemctl status nginx
-!(images)[estado.png]
+- 
+  [images](estado.png)
 - 
