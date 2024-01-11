@@ -9,5 +9,8 @@ var/www/html/index.nginx-debian.html
 Modifica la página web que lanza por defecto y personalízala.
 ![image](pagina.png)
 
+![image](navegador.png)
+
+
 ## d) Virtual Hosting:
 Queremos que nuestro servidor web ofrezca balanceo de carga desde https  a dos sitios web que tengan también https.
