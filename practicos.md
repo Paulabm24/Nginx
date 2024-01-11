@@ -2,6 +2,7 @@
 Version 1.22.1-9
 ## b) Ficheros de configuración.
 - Modificar pagina por defecto
+
 var/www/html/index.nginx-debian.html
 
 ## c) Página web por defecto:
