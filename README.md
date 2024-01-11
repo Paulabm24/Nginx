@@ -1,4 +1,5 @@
 # Nginx
+![image](nginx.png)
 ## Indice
 - [Introduccion](introducion.md)
 - [Comparativa con apache](comparativa.md)
