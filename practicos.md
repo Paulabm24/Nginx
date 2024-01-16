@@ -92,7 +92,10 @@ server {
 }
 
 Creamos enlaces simbolicos para habilitar los sitios
+
 sudo ln -s /etc/nginx/sites-available/sitio1 /etc/nginx/sites-enabled/
+
 sudo ln -s /etc/nginx/sites-available/sitio2 /etc/nginx/sites-enabled/
+
 sudo ln -s /etc/nginx/sites-available/balanceo /etc/nginx/sites-enabled/
 
