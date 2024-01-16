@@ -24,14 +24,16 @@ Instalamos certbot para obtener un certificado ssl
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/sitio1.key -out /etc/ssl/certs/sitio1.crt
 
 openssl req \
-> -x509 \
-> -nodes \
-> -days 365 \
-> -newkey rsa:2048 \
-> -keyout /etc/ssl/private/sitio2.key \
-> -out /etc/ssl/certs/sitio2.crt
+-x509 \
+-nodes \
+-days 365 \
+-newkey rsa:2048 \
+-keyout /etc/ssl/private/sitio2.key \
+-out /etc/ssl/certs/sitio2.crt
+
 Creamos dos archivos con la configuracion de nuestros sitios web
-> server {
+
+server {
     listen 443 ssl;
     server_name sitio1.com;
 
@@ -60,8 +62,9 @@ server {
         # Opciones de proxy según tus necesidades
     }
 }
+
 Archivo de balanceo de carga con los dos sitios web
-  GNU nano 7.2                     /etc/nginx/sites-available/balanceo                               
+                             
 upstream backend1 {
     server sitio1-172.26.2.32:443;
 }
@@ -73,8 +76,6 @@ upstream backend2 {
 server {
     listen 443 ssl;
     server_name loadbalancer.com;
-
-
 
     # Configuraciones adicionales según tus necesidades
 
